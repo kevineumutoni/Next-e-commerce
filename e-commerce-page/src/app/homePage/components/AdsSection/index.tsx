@@ -15,7 +15,6 @@ const categories = [
 export default function AdsBanner() {
   return (
     <div className="flex w-full py-4 bg-white px-4 md:px-12 lg:px-24">
-      {/* Sidebar Categories */}
       <aside className="hidden md:flex flex-col border-r border-gray-200 w-64 pr-4 pl-4">
         {categories.map((cat, idx) => (
           <div
@@ -28,11 +27,9 @@ export default function AdsBanner() {
         ))}
       </aside>
 
-      {/* Main Banner */}
       <div className="flex-1 flex flex-col items-center justify-center">
         <div className="relative w-full flex justify-center items-center">
           <div className="w-[1100px] max-w-full h-[320px] bg-black rounded-lg flex items-center px-12">
-            {/* Banner Content */}
             <div className="flex flex-col flex-1 justify-center h-full text-white">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-2xl"></span>
@@ -49,7 +46,6 @@ export default function AdsBanner() {
                 Shop Now <ArrowForwardIos className="text-white" style={{ fontSize: 16 }} />
               </a>
             </div>
-            {/* Banner Image */}
             <div className="flex-1 flex justify-end items-center h-full">
               <img
                 src="/images/iphones.jpg"
@@ -58,7 +54,6 @@ export default function AdsBanner() {
               />
             </div>
           </div>
-          {/* Dots for carousel */}
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
             <span className="w-2 h-2 rounded-full bg-gray-400"></span>
             <span className="w-2 h-2 rounded-full bg-gray-400"></span>

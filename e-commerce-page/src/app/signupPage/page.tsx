@@ -4,7 +4,6 @@ import Button from '@mui/material/Button';
 import GoogleIcon from '@mui/icons-material/Google';
 import Link from "next/link";
 import React from "react";
-import { Footer } from "../shared-components/Footer/page";
 
 const inter = Inter({ subsets: ["latin"] });
 

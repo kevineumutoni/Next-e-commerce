@@ -1,5 +1,5 @@
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
-import { TagsIcon } from "../TagsIconProps/page";
+import { TagsIcon } from "../TagsIconProps/index";
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import StarIcon from '@mui/icons-material/Star';

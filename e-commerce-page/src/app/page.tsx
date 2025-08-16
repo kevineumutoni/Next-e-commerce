@@ -13,9 +13,6 @@ export default function Home() {
     <NavBar/>
     <CreateAccount/>
     <Footer/>
-  
-
-
     </>
   );
 }

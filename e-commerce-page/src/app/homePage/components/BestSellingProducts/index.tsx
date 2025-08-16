@@ -1,7 +1,7 @@
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import StarIcon from '@mui/icons-material/Star';
-import { TagsIcon } from "../TagsIconProps/page";
+import { TagsIcon } from "../TagsIconProps/index";
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 
 const bestProducts = [
@@ -114,12 +114,10 @@ export default function BestSellingProducts() {
               <span className="text-xs">Seconds</span>
             </div>
           </div>
-          {/* Buy Now Button */}
           <button className="bg-green-400 text-black font-bold px-8 py-3 rounded-lg text-lg shadow hover:bg-green-500 transition-all">
             Buy Now!
           </button>
         </div>
-        {/* Right */}
         <div className="flex-1 flex justify-center items-center mt-8 md:mt-0">
           <img
             src="/images/soundspeak.png"

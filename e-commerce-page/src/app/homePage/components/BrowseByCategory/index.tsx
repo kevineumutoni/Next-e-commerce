@@ -5,7 +5,7 @@ import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
-import { TagsIcon } from "../TagsIconProps/page";
+import { TagsIcon } from "../TagsIconProps/index";
 
 const categories = [
   { icon: <PhoneIphoneIcon fontSize="large" />, label: "Phones" },

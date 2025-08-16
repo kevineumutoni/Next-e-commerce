@@ -2,7 +2,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import StarIcon from '@mui/icons-material/Star';
 import Button from '@mui/material/Button';
-import { TagsIcon } from "../TagsIconProps/page";
+import { TagsIcon } from "../TagsIconProps/index";
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 
 const products = [

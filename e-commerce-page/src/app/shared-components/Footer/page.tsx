@@ -3,7 +3,7 @@ import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import IconTextBox from "./IconTextBox/page";
+import IconTextBox from "./IconTextBox/index";
 import SendIcon from '@mui/icons-material/Send';
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });

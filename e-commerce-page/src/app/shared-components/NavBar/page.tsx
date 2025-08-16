@@ -1,6 +1,6 @@
-import { ExclusiveNav } from './components/ExclusiveNav/page';
-import { Navigation } from './components/Navigation/page';
-import { SearchBar } from './components/SearchBar/page';
+import { ExclusiveNav } from './components/ExclusiveNav/index';
+import { Navigation } from './components/Navigation/index';
+import { SearchBar } from './components/SearchBar/index';
 
 function NavBar() {
   return (

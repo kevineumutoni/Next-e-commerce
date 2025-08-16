@@ -1,4 +1,4 @@
-import { TagsIcon } from "../TagsIconProps/page";
+import { TagsIcon } from "../TagsIconProps/index";
 import CropPortraitOutlinedIcon from '@mui/icons-material/CropPortraitOutlined';
 import FireTruckIcon from '@mui/icons-material/FireTruck';
 import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
