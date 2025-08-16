@@ -20,9 +20,9 @@ export default function NewArrivals() {
         </div>
         <div className="grid grid-cols-1 grid-rows-2 gap-6 h-full">
           <div className="relative rounded-xl overflow-hidden bg-black h-69 md:h-106 lg:h-[305px]">
-            <img src="/images/girl.jpg" alt="Women's Collections" className="w-full h-full object-contain p-4" />
+            <img src="/images/girl.jpg" alt="Women&apos;s Collections" className="w-full h-full object-contain p-4" />
             <div className="absolute bottom-6 left-6 text-white">
-              <h2 className="font-bold text-xl mb-2">Women's Collections</h2>
+              <h2 className="font-bold text-xl mb-2">Women&apos;s Collections</h2>
               <p className="mb-4 text-base">Featured woman collections that give you another vibe.</p>
               <a href="#" className="font-semibold underline">Shop Now</a>
             </div>
