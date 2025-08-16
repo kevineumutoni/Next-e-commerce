@@ -4,9 +4,9 @@ import BestSellingProducts from "./components/BestSellingProducts/index";
 import BrowseByCategory from "./components/BrowseByCategory/index";
 import FreshSales from "./components/FreshSales/index";
 import AdsBanner from "./components/AdsSection/index";
-import SalesAds from "../shared-components/SalesAds/page";
-import NavBar from "../shared-components/NavBar/page";
-import { Footer } from "../shared-components/Footer/page";
+import SalesAds from "../shared-components/SalesAds";
+import NavBar from "../shared-components/NavBar";
+import { Footer } from "../shared-components/Footer";
 
 export default function HomePage(){
   return(

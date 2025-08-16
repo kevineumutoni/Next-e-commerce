@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Link from "next/link";
 import React from "react";
-import { Footer } from "../shared-components/Footer/page";
+import { Footer } from "../shared-components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
